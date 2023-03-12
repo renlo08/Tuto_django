@@ -29,4 +29,4 @@ class ToDoItem(models.Model):
         return f"{self.title}: due {self.due_date}"
 
     class Meta:
-        ordering = ["due date"]
+        ordering = ["due_date"]
